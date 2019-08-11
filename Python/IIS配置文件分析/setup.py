@@ -51,7 +51,7 @@ def read_xml(file_xml_path ):
     print(lists)
 
 if __name__=='__main__':
-    lists = [['站点', 'ID', '网址', '状态'],]
+    lists = [['站点', 'ID', '网址', '当前状态'],]
     # xml文件配置
     file_xml_path = r"xmlfile\test.xml"
     read_xml(file_xml_path)
