@@ -114,11 +114,3 @@ def check_site(url_list):
 if __name__ == '__main__':
     check_site('domain.dic')
 
-
-    # sender = "shenpf@etlchina.net"  # 发件人邮箱账号
-    # password = "spf3906050"
-    # receive = "shenpf@etlchina.net"  # 收件人邮箱账号
-    # body = check_site('domain.dic')
-    # E_Mail(sender,password,receive,body)
-    # html1 = html()
-    # E_Mail("shenpf@etlchina.net", html1)
