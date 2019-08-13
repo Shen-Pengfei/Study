@@ -84,6 +84,7 @@ def check_site(url_list):
     sites = open(url_list)
     print(type(site_list))
 
+
     for line in sites:
         # 截取网址
         site = line.strip()
